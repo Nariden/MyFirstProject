@@ -1,8 +1,6 @@
-const { default: test, expect } = require('@playwright/test')
-const { hello, helloWorld } = require('@demo/hello')
-
-test('My first test', async ({ page }) => {
-
-    await page.goto('https://google.com')
-
-})
+exports.hello = function f1(){
+    return ('Hello')
+    }
+    exports.helloWorld = function f2(){
+        return ('Hello world')
+        }
